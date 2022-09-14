@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+nav {
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+}
+
+nav .logo {
+  padding-left: 30px;
+}
+.logoheader {
+  padding-left: 60px;
+}
+
+nav ul li {
+  padding-right: 50px;
+  display: inline-block;
+}
+nav ul li a {
+  color: black;
+}
+
+nav ul li a:hover {
+  color: gray;
+  transition: 0.3s;
+}
+
+/* section 1 */
+.section1 {
+  padding-bottom: 246px;
+}
+.texto {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  padding-top: 50px;
+}
+
+.texto h1 {
+  font-size: 40px;
+}
+
+.texto p {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.englobatudo {
+  width: 521px;
+  padding-left: 50px;
+}
+
+.emailebotao {
+  padding-top: 41px;
+  display: inline-block;
+}
+.email {
+  border: 2px solid gray;
+  padding-left: 10px;
+  border-radius: 7px;
+  height: 30px;
+  width: 340px;
+}
+
+.botao {
+  color: white;
+  border: 1px solid rgb(10, 7, 203);
+  background-color: blue;
+  text-align: center;
+  border-radius: 7px;
+  height: 35px;
+  width: 150px;
+  cursor: pointer;
+}
+.englobatudo {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagemdolado {
+  padding-left: 158px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* section2 */
+
+.section2 {
+  background-color: #f9f8fe;
+  padding-top: 250px;
+  padding-bottom: 100px;
+}
+
+.segundasecao {
+  width: 600px;
+  padding-left: 50px;
+}
+
+.segundasecao h1 {
+  font-size: 34px;
+}
+
+.segundasecao p {
+  width: 433px;
+  padding-top: 25px;
+}
+
+.segundasecao h2 {
+  font-size: 15px;
+  padding-top: 10px;
+}
+.segundasecao h2 a {
+  color: green;
+  text-decoration: underline;
+}
+.segundasecao h2 a:hover {
+  transition: 0.4s;
+  color: rgb(4, 174, 4);
+}
+
+.flex2 {
+  display: flex;
+  align-items: center;
+}
+
+.chat {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-left: 20px;
+  background-color: aliceblue;
+  width: 335px;
+  height: 169px;
+  padding-bottom: 30px;
+}
+.tuitou {
+  padding-left: 50px;
+}
+.chat p {
+  padding-top: 5px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* section 3*/
+
+.terceirasecao {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #575989;
+  width: 1500px;
+  height: 300px;
+}
+
+.tituloep {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-left: 30px;
+}
+.tituloep h1 {
+  font-size: 30px;
+}
+.tituloep p {
+  padding-top: 20px;
+}
+
+.flex3 {
+  display: flex;
+}
+.escreveremail {
+  display: flex;
+  flex-direction: column;
+}
+
+.botaoo {
+  padding-top: 20px;
+}
+
+/* footer */
+
+.tudo {
+  color: white;
+  display: flex;
+
+  padding-left: 40px;
+  background-color: #07043b;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+.phone {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.imgphone {
+  padding: 0px 20px;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+}
+
+.imgmail {
+  padding: 20px;
+}
+
+.logodaesquerda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.avatar1 {
+  padding-left: 30px;
+}
+
+.lista {
+  display: flex;
+  padding-left: 200px;
+}
+
+.lista ul li {
+  padding: 10px 70px;
+}
+
+.englobalista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista,
+.segundalista,
+ul,
+li,
+a {
+  color: white;
+}
+
+.lista,
+.segundalista,
+ul,
+li,
+a:hover {
+  color: gray;
+  transition: 0.3s;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: black;
+}
+
+.redes p a {
+  color: blue;
+}
+
+/* fim */
